@@ -1,4 +1,4 @@
-.gingham-border {
+.name-banner {
     background-image: url('gplay.png');
     background-color: #0f254e;
     color:rgb(194, 166, 8);
@@ -7,9 +7,8 @@
     font-weight: bold;
     font-size: 2em;
     text-align: center;
-    border: 10px solid;;
+    border: 10px solid;
     border-radius: 3.5em;
     border-top-right-radius: 0% 10%;
     padding: 40px;
-    
 }
