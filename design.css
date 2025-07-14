@@ -1,12 +1,15 @@
 .gingham-border {
+    background-image: url('gplay.png');
+    background-color: #0f254e;
     color:rgb(194, 166, 8);
+    font-family: 'serif';
     font-style: italic;
     font-weight: bold;
     font-size: 2em;
     text-align: center;
-    border: 20px solid;
-    border-image: url('https://www.transparenttextures.com/patterns/checkerboard.png') 30 round;
+    border: 10px solid;;
+    border-radius: 3.5em;
+    border-top-right-radius: 0% 10%;
     padding: 40px;
-    background-color: #ffffff; /* Cornsilk background */
-    box-shadow: 0 4px 8px rgba(18, 22, 82, 0.1);
+    
 }
