@@ -1,3 +1,16 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #d0daee; 
+}
+
+.background {
+    min-height: 100vh;
+    background-color: #d0daee;
+}
+
 .name-banner {
     background-image: url('gplay.png');
     background-color: #0f254e;
@@ -11,4 +24,27 @@
     border-radius: 3.5em;
     border-top-right-radius: 0% 10%;
     padding: 40px;
+}
+
+.about-me{
+    background-image: url('gplay.png');
+    background-color: #0f254e;
+    color:rgb(194, 166, 8);
+    font-family: 'serif';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    border: 10px solid;
+    border-radius: 3.5em;
+    border-top-right-radius: 0% 10%;
+    padding: 4px;
+}
+
+.background {
+    margin: 0;
+    padding: 0;
+    background-color: #d0daee;
+    height: 100%;
+    box-sizing: border-box;
 }
