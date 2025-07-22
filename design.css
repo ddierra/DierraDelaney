@@ -1,50 +1,39 @@
 
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #d0daee; 
+body {
+  margin: 0;
+  background-color: #f8eee3; /* brown-cream-yellowish */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.background {
-    min-height: 100vh;
-    background-color: #d0daee;
+/* Checkerboard background */
+/* Using CSS Grid to create a checkerboard pattern */
+.checkerboard {
+  position: fixed;    
+  top: 0;
+  left: 0;
+  width: 100vw;      
+  height: 100vh;      
+  z-index: -1;        
+  display: grid;
+  grid-template-columns: repeat(10, 10vw);  
+  grid-template-rows: repeat(10, 10vh);
+  opacity: 0.7; /* semi-transparent */
 }
 
-.name-banner {
-    background-image: url('gplay.png');
-    background-color: #0f254e;
-    color:rgb(194, 166, 8);
-    font-family: 'serif';
-    font-style: italic;
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
-    border: 10px solid;
-    border-radius: 3.5em;
-    border-top-right-radius: 0% 10%;
-    padding: 40px;
+/* Checkerboard tiles made to not touch */
+.tile {
+  width: 50%; 
+  height: 50%;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+
+
+.name-banner{
 }
 
 .about-me{
-    background-image: url('gplay.png');
-    background-color: #0f254e;
-    color:rgb(194, 166, 8);
-    font-family: 'serif';
-    font-style: italic;
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
-    border: 10px solid;
-    border-radius: 3.5em;
-    border-top-right-radius: 0% 10%;
-    padding: 4px;
-}
-
-.background {
-    margin: 0;
-    padding: 0;
-    background-color: #d0daee;
-    height: 100%;
-    box-sizing: border-box;
 }
