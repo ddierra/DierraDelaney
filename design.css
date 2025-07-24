@@ -1,6 +1,10 @@
 html, body {
   height: 100%;
   margin: 0;
+  font: serif;
+  font-size: 16px;
+  font-style: italic;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -8,7 +12,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #f8eee3; /* brown-cream-yellowish */
-  display: flex;
+}
+
+section{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 main {
@@ -20,6 +28,20 @@ footer {
   padding: 1rem;
   text-align: center;
 }
+
+.hero{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8eee3;
+  text-align: center;
+  font-family:serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+
 
 /* Checkerboard background */
 /* Using CSS Grid to create a checkerboard pattern */
@@ -43,15 +65,44 @@ footer {
   box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
 }
 
-.name-banner{
-  background-color: #f8eee3;
-  padding: 1rem;
+.welcome-banner{
+  margin-top: 4rem;
+  display: inline-block; 
   text-align: center;
-  font: serif;
+  border-radius: 100px;;
+  background-color: #f8eee3;
+  padding: 1em;
+  font-family: serif;
   font-style: italic;
-  font-style: bold;
-  font-size: 2em;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
-.about-me{
+.welcome-banner-wrapper {
+  text-align: center;
+
+}
+
+.section-header {
+  text-align: center;
+  font-family: serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #f8eee3;
+  padding: 1rem;
+}
+
+.body-text{
+  display: block;
+  padding: 1rem;
+  background-color: #f8eee3;
+  border-radius: 50px;
+  font-family: serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.2rem;
+  text-align: left
 }
