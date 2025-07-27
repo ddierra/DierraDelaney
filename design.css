@@ -87,7 +87,7 @@ footer {
 .checkerboard {
   position: fixed;    
   top: 0;
-  left: 1.5%; /* Adjusted to fit the design */
+  left: 1.7%; /* Adjusted to fit the design */
   width: 100vw;      
   height: 100vh;      
   z-index: -1;        
