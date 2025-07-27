@@ -1,0 +1,82 @@
+.secondary-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-color: #f8eee3; /* brown-cream-yellowish */
+}
+
+.secondary-banner {
+  background-color: #cce3c0;
+  border-color: #fcb6d0;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font: serif;
+  font-size: 16px;
+  font-style: italic;
+  scroll-behavior: smooth;
+}
+
+button {
+  font-family: serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.6em 1.2em;
+  margin: 0.5rem;
+  border-radius: 50px;
+  border: none;
+  background-color: #fcb6d0; /* pastel pink */
+  color: #000000; /* dark text */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cce3c0; /* pastel green */
+}
+
+button a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8eee3; /* brown-cream-yellowish */
+}
+
+section{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+}
+
+section p {
+  text-indent: 2em;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #f8eee3;
+  padding: 1rem;
+  text-align: center;
+}

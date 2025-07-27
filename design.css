@@ -36,7 +36,6 @@ button a {
   text-align: center;
 }
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -45,10 +44,15 @@ body {
 }
 
 section{
+  max-width: 1200px;
+  margin: 0 auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  padding: 0 2rem;
+}
+
+section p {
+  text-indent: 2em;
 }
 
 main {
@@ -153,5 +157,5 @@ footer {
 
 .secondary-banner {
   background-color: #cce3c0;
-
+  border-color: #fcb6d0;
 }
