@@ -21,23 +21,5 @@
       <footer>
       <p>Connect with me on <a href="https://github.com/ddierra">GitHub</a> <a href="https://www.linkedin.com/in/dierra-delaney-20901314a/">LinkedIn</a></p>
     </footer>
-
-  <script>
-  const checkerboard = document.getElementById('checkerboard');
-  const colors = ['#fcb6d0', '#cce3c0']; // pink, light forest green
-
-  for (let row = 0; row < 10; row++) {
-    for (let col = 0; col < 10; col++) {
-      const tile = document.createElement('div');
-      tile.classList.add('tile');
-
-      // Alternate colors checkerboard-style
-      const colorIndex = (row + col) % 2;
-      tile.style.backgroundColor = colors[colorIndex];
-
-      checkerboard.appendChild(tile);
-    }
-  }
-</script>
 </body>
 </html>
