@@ -8,9 +8,29 @@
   background-color: #f8eee3; /* brown-cream-yellowish */
 }
 
-.secondary-banner {
-  background-color: #cce3c0;
-  border-color: #fcb6d0;
+.secondary-banner::before {
+  content: '';
+  background: linear-gradient(to right, #fcb6d0, #cce3c0);
+  display:block;
+  position: absolute;
+  top: -9px;
+  left: -9px;
+  right: -9px;
+  bottom:-9px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  z-index: -1;
+}
+
+.secondary-banner{
+  position: relative;
+  display:block;
+  background-color: #f8eee3;
+  padding:1rem;
+  margin: 1.7%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  text-align: center;
 }
 
 
