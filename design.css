@@ -16,14 +16,15 @@ button {
   margin: 0.5rem;
   border-radius: 50px;
   border: none;
-  background-color: #fcb6d0; /* pastel pink */
-  color: #000000; /* dark text */
+  background-color: #6e4d57; 
+  color: #e7dfd4; 
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #cce3c0; /* pastel green */
+  background-color: #cbbfa4;
+  color: #6e4d57; /* Change to a contrasting color on hover */
 }
 
 button a {
@@ -40,14 +41,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #f8eee3; /* brown-cream-yellowish */
+  background-color: #1f1a1d; 
 }
 
 section{
+  background-color: #e7dfd4;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
   padding: 0 2rem;
 }
 
@@ -60,9 +60,11 @@ main {
 }
 
 footer {
-  background-color: #f8eee3;
+  background-color: #e7dfd4;
+  color: #1f1a1d;
   padding: 1rem;
   text-align: center;
+  margin-top: 3rem;
 }
 
 .hero{
@@ -71,13 +73,15 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f8eee3;
+  background-color: #e7dfd4;
+  color: #1f1a1d;
   text-align: center;
   font-family:serif;
   font-style: italic;
   font-weight: bold;
   font-size: 2rem;
   margin: 0;
+  margin-bottom: 3rem;
   font-size: clamp(1.5rem, 5vw, 2.5rem);
 }
 
@@ -101,19 +105,21 @@ footer {
 .tile {
   width: 60%; 
   height: 60%;
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+  box-shadow: inset 0 0 5px rgb(0, 0, 0);
 }
 
 .welcome-banner{
   display: inline-block; 
   text-align: center;
   border-radius: 100px;;
-  background-color: #f8eee3;
+  background-color:#1f1a1d;
+  color:  #e7dfd4;
   padding: 1em;
   font-family: serif;
   font-style: italic;
   font-weight: bold;
   font-size: 1.5rem;
+  margin: 3rem;
 }
 
 .welcome-banner-wrapper {
@@ -128,19 +134,36 @@ footer {
   font-weight: bold;
   font-size: 1.5rem;
   display: inline-block;
-  border-radius: 50px;
-  background-color: #f8eee3;
+  border-radius: 100px;
+  background-color:#1f1a1d;
+  color: #e7dfd4;
   padding: 1rem;
+  margin-top: 3rem;
 }
 
 .body-text{
   display: block;
   padding: 1rem;
-  background-color: #f8eee3;
+  background-color: #e7dfd4;
+  color: #1f1a1d;
   border-radius: 50px;
   font-family: serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.2rem;
   text-align: left;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.grid-item {
+  padding: 1rem;
+  text-align: center;
 }

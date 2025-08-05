@@ -35,7 +35,7 @@
           </p>
         </div>
       </section>
-      
+      <section>
 <div class = "welcome-banner-wrapper">
         <div class="welcome-banner">
         <h2>Welcome to My Portfolio</h2>
@@ -45,22 +45,12 @@
 
     <!-- Navigation Buttons -->
      <!--Made into their own sections to for pictures to be added later.-->
-      <section>
-        <div class = "button-wrapper">
-        <button><a href="Projects.html">Projects</a></button>
-        </div>
-      </section>
       
-      <section>
-        <div class = "button-wrapper">
-      <button><a href="Resume.html">Resume</a></button>
-        </div>
-      </section>
-      <section>
-        <div class = "button-wrapper">
-      <button><a href="Learning.html">Learn With Me</a></button>
-        </div>
-      </section>
+     <section class = "grid-section">
+        <div class = "grid-item"><button onclick="location.href='Projects.html'">Projects</button></div>
+        <div class = "grid-item"><button onclick="location.href='Resume.html'">Resume</button></div>
+        <div class = "grid-item"><button onclick="location.href='Learning.html'">Learn with me</button></div>
+            </section>
       
     </main>
 
@@ -70,7 +60,7 @@
 
   <script>
   const checkerboard = document.getElementById('checkerboard');
-  const colors = ['#fcb6d0', '#cce3c0']; // pink, light forest green
+  const colors = ['#6e4d57', '#e7dfd4']; // pink, light forest green
 
   for (let row = 0; row < 10; row++) {
     for (let col = 0; col < 10; col++) {
