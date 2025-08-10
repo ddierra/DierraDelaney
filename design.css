@@ -23,8 +23,7 @@ button {
 }
 
 button:hover {
-  background-color: #cbbfa4;
-  color: #6e4d57; /* Change to a contrasting color on hover */
+  background-color: #1f1a1d;
 }
 
 button a {
@@ -167,4 +166,20 @@ footer {
 .grid-item {
   padding: 1rem;
   text-align: center;
+}
+
+.contact-links {
+    display: center;
+    gap: 15px;
+    font-size: 1.5rem;
+}
+
+.contact-links a {
+    color: #6e4d57; /* Button color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-links a:hover {
+    color: #1f1a1d; /* Button hover color */
 }
