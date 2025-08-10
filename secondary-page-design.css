@@ -5,12 +5,12 @@
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  background-color: #f8eee3; /* brown-cream-yellowish */
+  background-color: #e7dfd4; /* light brown */
 }
 
 .secondary-banner::before {
   content: '';
-  background: linear-gradient(to right, #fcb6d0, #cce3c0);
+  background: linear-gradient(to right, #6e4d57, #1f1a1d);
   display:block;
   position: absolute;
   top: -9px;
@@ -25,13 +25,13 @@
 .secondary-banner{
   position: relative;
   display:block;
-  background-color: #f8eee3;
   padding:1rem;
   margin: 1.7%;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   text-align: center;
   font-size: 1.5rem;
+  color:#e7dfd4
 }
 
 html, body {
@@ -52,14 +52,14 @@ button {
   margin: 0.5rem;
   border-radius: 50px;
   border: none;
-  background-color: #fcb6d0; /* pastel pink */
-  color: #000000; /* dark text */
+  background-color: #6e4d57; /* pastel pink */
+  color: #e7dfd4; /* light brown */
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #cce3c0; /* pastel green */
+  background-color: #1f1a1d; /* dark brown */
 }
 
 button a {
@@ -76,7 +76,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #f8eee3; /* brown-cream-yellowish */
+  background-color: #e7dfd4; /* light brown */
 }
 
 section{
