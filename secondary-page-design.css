@@ -96,10 +96,14 @@ main {
 }
 
 footer {
-  background-color: #f8eee3;
+  background-color: #e7dfd4;
+  color: #1f1a1d;
   padding: 1rem;
   text-align: center;
+  margin-top: 3rem;
+  font-size: 1.3rem;
 }
+
 
 .grid-section {
   display: grid;
