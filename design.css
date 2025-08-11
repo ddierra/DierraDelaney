@@ -63,7 +63,6 @@ footer {
   color: #1f1a1d;
   padding: 1rem;
   text-align: center;
-  margin-top: 3rem;
   font-size: 1.3rem;
 }
 
@@ -81,7 +80,6 @@ footer {
   font-weight: bold;
   font-size: 2rem;
   margin: 0;
-  margin-bottom: 3rem;
   font-size: clamp(1.5rem, 5vw, 2.5rem);
 }
 
@@ -108,43 +106,9 @@ footer {
   box-shadow: inset 0 0 5px rgb(0, 0, 0);
 }
 
-.welcome-banner{
-  display: inline-block; 
-  text-align: center;
-  border-radius: 100px;;
-  background-color:#1f1a1d;
-  color:  #e7dfd4;
-  padding: 1em;
-  font-family: serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin: 3rem;
-}
-
-.welcome-banner-wrapper {
-  text-align: center;
-
-}
-
-.section-header {
-  text-align: center;
-  font-family: serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 1.5rem;
+.body-text {
   display: inline-block;
-  border-radius: 100px;
-  background-color:#1f1a1d;
-  color: #e7dfd4;
-  padding: 1rem;
-  margin-top: 3rem;
-}
-
-.body-text{
-  display: block;
-  padding: 1rem;
-  background-color: #e7dfd4;
+  padding: 1rem;;
   color: #1f1a1d;
   border-radius: 50px;
   font-family: serif;
@@ -152,6 +116,7 @@ footer {
   font-weight: normal;
   font-size: 1.2rem;
   text-align: left;
+  font-size: larger;
 }
 
 .grid-section {
@@ -182,4 +147,19 @@ footer {
 
 .contact-links a:hover {
     color: #1f1a1d; /* Button hover color */
+}
+
+.section-with-hero-style {
+  font-family: serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7dfd4;
+  color: #1f1a1d;
+  margin: 0;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
 }
