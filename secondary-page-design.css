@@ -128,11 +128,6 @@ footer {
     color: #1f1a1d; /* Button hover color */
 }
 
-.section-header-wrapper {
-  text-align: center;
-  margin-top: 3rem;
-}
-
 .section-header {
   text-align: Right;
   font-family: serif;
