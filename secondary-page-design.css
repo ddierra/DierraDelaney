@@ -201,7 +201,7 @@ footer {
 
 @media (max-width: 768px) {
   .sidebar {
-    position: relative;
+    position: sticky;
     width: 100%;
     top: auto;
   }
