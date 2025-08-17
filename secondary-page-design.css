@@ -210,3 +210,30 @@ footer {
     flex-direction: column;
   }
 }
+
+.Nav-bar {
+  background-color: #6e4d57;
+  color: #e7dfd4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 60px;
+}
+
+.Nav-bar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Nav-bar nav a {
+  color: #e7dfd4;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.Nav-bar nav a:hover {
+  color: #1f1a1d;
+}
