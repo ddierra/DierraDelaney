@@ -225,3 +225,21 @@ footer {
 .Nav-bar nav a:hover {
   color: #1f1a1d;
 }
+
+.images {
+  font-family: serif;
+  font-style: normal;
+  font-weight: bold;
+
+}
+.images img{
+  max-width: 70%;
+  max-height: auto;
+  align-self: center;
+}
+
+.images figcaption {
+  font-size: 1rem;
+  color: #1f1a1d;
+  margin-top: 0.8rem;
+}
