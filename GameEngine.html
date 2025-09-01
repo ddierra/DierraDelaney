@@ -117,6 +117,35 @@
           <p>
             By the end of this section, users could create a window, render simple shapes (a blue oval and a yellow square), and control their movement using keyboard inputs.
           </p>
+          <p>
+            The following code snippet demonstrates the basic structure of the keyboard input handling implemented during this phase:
+          </p>
+          <pre><code>
+          // Keyboard input handling
+
+          //sample code for rectangle movement
+          if (input.isKeyPressed(sf::Keyboard::W)) {
+            rectangle.move(0.f, -1/4.f);
+          }
+          if (input.isKeyPressed(sf::Keyboard::S)) {
+            rectangle.move(0.f, 1/4.f);
+          }
+
+          //sample code for circle movement
+          if (input.isKeyPressed(sf::Keyboard::Left)) {
+            circle.move(-1/4.f, 0.f);
+          }
+          if (input.isKeyPressed(sf::Keyboard::Right)) {
+            circle.move(1/4.f, 0.f);
+          }
+          </code></pre>
+
+          <h4>Next Steps</h4>
+          <p>
+            Moving forward, I will be implementing an <strong>Entity-Component-System (ECS)</strong> to enhance the engine's flexibility and scalability. 
+            This system will allow for more complex game objects and behaviors to be created with ease, while enabling efficient management of all game entities.
+          </p>
+
           </div>
     </section>
 

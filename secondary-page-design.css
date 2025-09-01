@@ -243,3 +243,16 @@ footer {
   color: #1f1a1d;
   margin-top: 0.8rem;
 }
+
+pre {
+  background-color: #1f1a1d;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  color: #e7dfd4;
+  font-size: 14px;
+}
